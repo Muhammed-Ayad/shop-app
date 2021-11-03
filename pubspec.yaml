@@ -1,0 +1,44 @@
+name: shop_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  carousel_pro_nullsafety: ^1.0.2
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  dependencies: null
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^0.14.0+3
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+################# Assets ###################
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Handlee Regular
+      fonts:
+        - asset: assets/fonts/Handlee-Regular.ttf
+          weight: 900
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
+          weight: 900
+    - family: Lobster Two
+      fonts:
+        - asset: assets/fonts/LobsterTwo-Bold.ttf
+        - asset: assets/fonts/LobsterTwo-Regular.ttf
